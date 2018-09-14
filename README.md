@@ -17,7 +17,7 @@ nodejs - movie api
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
-| /api/directors | `GET` | Empty | List all directors. |
+| /api/director | `GET` | Empty | List all directors. |
 | /api/directors | `POST` | { name: 'foo', surname:'bar', bio:'lorem ipsum' } | Create a new director. |
 | /api/directors/:director_id | `GET` | Empty | Get a director. |
 | /api/directors/:director_id | `PUT` | {'name':'foo', 'surname':'bar', 'bio': 'lorem'} | Update a director with new info. |
