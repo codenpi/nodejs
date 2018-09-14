@@ -9,8 +9,6 @@ const DirectorSchema = new Schema({
     type: Date,
     default:  Date.now
   }
-
-
 });
 
 module.exports  = mongoose.model('director', DirectorSchema);
