@@ -10,7 +10,7 @@ let token, directorId;
 describe('Director tests', () => {
 	before('Get Token', (done) => {
 		chai.request(server)
-			.post('/authenticate')
+			.post('/authention')
 			.send({username: 'admin', password: '123456'})
 			.end((err, res) => {
 				if (err)
